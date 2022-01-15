@@ -51,11 +51,12 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item text-capitalize" href="#">Automatic entry</a></li>
-                            <li><a class="dropdown-item text-capitalize" href="#">Attendance register</a></li>
+                            <!-- <li><a class="dropdown-item text-capitalize" href="#">Attendance register</a></li> -->
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item text-capitalize" target = "_parent" href="face_detection.html">Face mask detection</a></li>
+                            <li><a class="dropdown-item text-capitalize" target="_parent"
+                                    href="face_detection.html">Face mask detection</a></li>
                         </ul>
                     </li>
 
@@ -64,8 +65,8 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link text-capitalize fw-bold" href="Registration.html" target="_parent">Register <i><i
-                                    class="fas fa-sign-in-alt"></i></i></a>
+                        <a class="nav-link text-capitalize fw-bold" href="Registration.html" target="_parent">Register
+                            <i><i class="fas fa-sign-in-alt"></i></i></a>
                     </li>
 
                 </ul>
@@ -131,14 +132,14 @@
                 <div class="col-md p-5">
                     <h1>Learn The Fundamentals</h1>
                     <p class="lead">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Similique deleniti possimus magnam corporis ratione facere!
+                        In this post, I will show you how to build your own face recognizer using Python. Building a
+                        program that detects and
+                        recognizes faces is a very interesting and fun project to get started with computer vision.
                     </p>
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
-                        reiciendis eius autem eveniet mollitia, at asperiores suscipit
-                        quae similique laboriosam iste minus placeat odit velit quos,
-                        nulla architecto amet voluptates?
+                        In previous posts, I showed how to recognize text and also how to detect faces in an image,
+                        these are great projects to practice python in computer vision. Today, we will do something a
+                        little more advance and that is face recognition.
                     </p>
                     <a href="#" class="btn btn-outline-primary mt-3">
                         <i class="bi bi-chevron-right"></i> Read More
@@ -154,14 +155,18 @@
                 <div class="col-md p-5">
                     <h1>Learn How To Use</h1>
                     <p class="lead">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Similique deleniti possimus magnam corporis ratione facere!
+                        OpenCV is the most popular library for computer vision. Originally written in C/C++, it now
+                        provides bindings for
+                        Python.
                     </p>
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
-                        reiciendis eius autem eveniet mollitia, at asperiores suscipit
-                        quae similique laboriosam iste minus placeat odit velit quos,
-                        nulla architecto amet voluptates?
+                        OpenCV uses machine learning algorithms to search for faces within a picture. Because faces are
+                        so complicated, there
+                        isn’t one simple test that will tell you if it found a face or not. Instead, there are thousands
+                        of small patterns and
+                        features that must be matched. The algorithms break the task of identifying the face into
+                        thousands of smaller,
+                        bite-sized tasks, each of which is easy to solve. These tasks are also called classifiers.
                     </p>
                     <a href="#" class="btn btn-outline-info mt-3">
                         <i class="bi bi-chevron-right"></i> Read More
@@ -285,26 +290,26 @@
 
     <section id="about_us" class="p-5 bg-primary">
         <div class="container">
-            <h2 class="text-center text-white fw-bold">Our Team</h2>
-            <p class="lead text-center text-white mb-5">
-                Our instructors all have 5+ years working as a web developer in the
-                industry
-            </p>
+            <h2 class="text-center text-white fw-bold ">Our Team</h2>
+            <!-- <p class="lead text-center text-white mb-5">
+                Our team members are as follows
+            </p> -->
+            <br>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
                     <div class="card bg-light">
                         <div class="card-body text-center">
-                            <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3"
+                            <img src="img/Vaishnavi.jpg" class="rounded-circle mb-3" width="128px" height="128px"
                                 alt="" />
-                            <h3 class="card-title mb-3">John Doe</h3>
+                            <h3 class="card-title mb-3">Vaishnavi Bhardwaj</h3>
                             <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                                Project Leader <br>
+                                <center>18/EIE/04</center>
                             </p>
-                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                            <a href="#"><i class="fa fa-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="fa fa-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="fa fa-linkedin text-dark mx-1"></i></a>
+                            <a href="#"><i class="fa fa-instagram text-dark mx-1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -312,17 +317,16 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="card bg-light">
                         <div class="card-body text-center">
-                            <img src="https://randomuser.me/api/portraits/women/11.jpg" class="rounded-circle mb-3"
-                                alt="" />
-                            <h3 class="card-title mb-3">Jane Doe</h3>
+                            <img src="img/Yash.jpg" width="128px" height="128px" class="rounded-circle mb-3" alt="" />
+                            <h3 class="card-title mb-3">Yash Kumar</h3>
                             <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                                Architecture & Content Design <br>
+                                <center>18/EIE/02</center>
                             </p>
-                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                            <a href="#"><i class="fa fa-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="fa fa-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="fa fa-linkedin text-dark mx-1"></i></a>
+                            <a href="#"><i class="fa fa-instagram text-dark mx-1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -330,17 +334,16 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="card bg-light">
                         <div class="card-body text-center">
-                            <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3"
-                                alt="" />
-                            <h3 class="card-title mb-3">Steve Smith</h3>
+                            <img src="img/Aman.png" width="128px" height="128px" class="rounded-circle mb-3" alt="" />
+                            <h3 class="card-title mb-3">Aman Kumar</h3>
                             <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                                Frontend Design & Development <br>
+                                <center>18/EIE/53</center>
                             </p>
-                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                            <a href="#"><i class="fa fa-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="fa fa-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="fa fa-linkedin text-dark mx-1"></i></a>
+                            <a href="#"><i class="fa fa-instagram text-dark mx-1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -348,51 +351,49 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="card bg-light">
                         <div class="card-body text-center">
-                            <img src="https://randomuser.me/api/portraits/women/12.jpg" class="rounded-circle mb-3"
+                            <img src="img/Sunetra.jpg" width="128px" height="128px" class="rounded-circle mb-3"
                                 alt="" />
-                            <h3 class="card-title mb-3">Sara Smith</h3>
+                            <h3 class="card-title mb-3">Sunetra Mukherjee</h3>
                             <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                                Report Prep. & Progress Documentation <br>
+                                <center>18/EIE/07</center>
                             </p>
-                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                            <a href="#"><i class="fa fa-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="fa fa-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="fa fa-linkedin text-dark mx-1"></i></a>
+                            <a href="#"><i class="fa fa-instagram text-dark mx-1"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="card bg-light">
                         <div class="card-body text-center">
-                            <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3"
-                                alt="" />
-                            <h3 class="card-title mb-3">Sara Smith</h3>
+                            <img src="img/Mayank.jpg" width="128px" height="128px" class="rounded-circle mb-3" alt="" />
+                            <h3 class="card-title mb-3">Mayank Agarwal</h3>
                             <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                                Backend Development & Deployment <br>
+                                <center>18/EIE/32</center>
                             </p>
-                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                            <a href="#"><i class="fa fa-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="fa fa-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="fa fa-linkedin text-dark mx-1"></i></a>
+                            <a href="#"><i class="fa fa-instagram text-dark mx-1"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="card bg-light">
                         <div class="card-body text-center">
-                            <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3"
-                                alt="" />
-                            <h3 class="card-title mb-3">Sara Smith</h3>
+                            <img src="img/Adarsh.jpg" width="128px" height="128px" class="rounded-circle mb-3" alt="" />
+                            <h3 class="card-title mb-3">Adarsh Apurv</h3>
                             <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                                Database Development & Management <br>
+                                <center>18/EIE/56</center>
                             </p>
-                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                            <a href="#"><i class="fa fa-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="fa fa-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="fa fa-linkedin text-dark mx-1"></i></a>
+                            <a href="#"><i class="fa fa-instagram text-dark mx-1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -400,7 +401,7 @@
         </div>
     </section>
 
-    <section id = "contact_us" class="p-5">
+    <section id="contact_us" class="p-5">
         <div class="container">
             <div class="row g-4">
                 <div class="col-md">
